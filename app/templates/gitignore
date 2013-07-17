@@ -1,0 +1,8 @@
+ node_modules
+/components
+.www
+.sass-cache
+.compass
+export
+*.gem
+<% if (!ghDeploy) { %>.dist<% } %>
